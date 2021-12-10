@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./Components/Footer.js";
+import About from "./Components/About.js";
+import Header from "./Components/Header.js";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Main from "./Components/Main.js";
+import Esports from "./Components/Esports";
+import Aboutheader from "./Components/Aboutheader";
+import Esportsheader from "./Components/Esportsheader";
+import Comingsoon from "./Components/Comingsoon";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/About" element={<Aboutheader />} />
+          <Route path="/Esports" element={<Esportsheader />} />
+        </Routes>
+
+        <main>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Esports" element={<Esports />} />
+            <Route path="/Cs" element={<Comingsoon />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

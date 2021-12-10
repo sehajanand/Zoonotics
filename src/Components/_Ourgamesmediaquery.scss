@@ -1,0 +1,72 @@
+@media screen and (max-width: 892px) {
+  .game-sub1-1 {
+    height: 14vh;
+    width: 18vw;
+    border-radius: 44px;
+    background-position: center;
+
+    border: 2px solid white;
+    background-image: url(./Assets/card1.png);
+    margin-left: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .game-sub1-2 {
+    background-image: url(./Assets/card2.png);
+    border-radius: 44px;
+    height: 14vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18vw;
+    border: 2px solid white;
+  }
+
+  .game-sub1-3 {
+    border-radius: 44px;
+    margin-right: 50px;
+    background-position: center;
+    height: 14vh;
+    width: 18vw;
+    background-image: url(./Assets/card3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid white;
+  }
+
+  .game-sub2-1 {
+    height: 14vh;
+    background-image: url(./Assets/card4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 44px;
+    margin-left: 50px;
+    width: 18vw;
+    background-position: center;
+    border: 2px solid white;
+  }
+
+  .game-sub2-2 {
+    height: 14vh;
+    border-radius: 44px;
+    width: 18vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTzDe6GmUu0UBAph-DREU90-utqvCV2ZDlQ&usqp=CAU);
+    background-position: center;
+    background-size: 116px;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+  }
+
+  .game-sub2-3 {
+    height: 14vh;
+    background-image: url(./Assets/card-2-img-4.jpg);
+    background-position: center;
+    background-size: 116px;
+    background-repeat: no-repeat;
+    border-radius: 44px;
+    width: 18vw;
+    margin-right: 50px;
+    border: 2px solid white;
+  }
+}

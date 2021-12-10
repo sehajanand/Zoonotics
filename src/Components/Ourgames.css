@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Oxygen:wght@300&display=swap");
+.our-games-card {
+  height: 56vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-image: url(./Assets/ourgamesbackgroundimg-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-games-sub-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 21vh;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.our-games-card > h1 {
+  font-weight: bolder;
+  font-family: "mollenregular";
+  color: white;
+  text-align: center;
+}
+
+.our-games-sub-2 {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 21vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.game-sub1-1 {
+  height: 14vh;
+  width: 13vw;
+  border-radius: 44px;
+  background-position: center;
+  border: 2px solid white;
+  background-image: url(./Assets/card1.png);
+  margin-left: 105px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.game-sub1-1-media {
+  height: 14vh;
+  width: 18vw;
+  border-radius: 44px;
+  background-position: center;
+  border: 2px solid white;
+  background-image: url(./Assets/card1.png);
+  margin-left: 105px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.game-sub1-1-media2 {
+  height: 14vh;
+  width: 21vw;
+  border-radius: 44px;
+  background-position: center;
+  border: 2px solid white;
+  background-image: url(./Assets/card1.png);
+  margin-left: 23px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.game-sub1-1:hover {
+  border: 2px solid lime;
+}
+
+.game-sub1-2 {
+  background-image: url(./Assets/card2.png);
+  border-radius: 44px;
+  height: 14vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13vw;
+  border: 2px solid white;
+}
+
+.game-sub1-2-media {
+  background-image: url(./Assets/card2.png);
+  border-radius: 44px;
+  height: 14vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18vw;
+  border: 2px solid white;
+}
+
+.game-sub1-2-media2 {
+  background-image: url(./Assets/card2.png);
+  border-radius: 44px;
+  height: 14vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 21vw;
+  border: 2px solid white;
+}
+
+.game-sub1-2:hover {
+  border: 2px solid lime;
+}
+
+.game-sub1-3 {
+  border-radius: 44px;
+  margin-right: 105px;
+  background-position: center;
+  height: 14vh;
+  width: 13vw;
+  background-image: url(./Assets/card3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 2px solid white;
+}
+
+.game-sub1-3-media {
+  border-radius: 44px;
+  margin-right: 105px;
+  background-position: center;
+  height: 14vh;
+  width: 18vw;
+  background-image: url(./Assets/card3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 2px solid white;
+}
+
+.game-sub1-3-media2 {
+  border-radius: 44px;
+  margin-right: 23px;
+  background-position: center;
+  height: 14vh;
+  width: 21vw;
+  background-image: url(./Assets/card3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 2px solid white;
+}
+
+.game-sub1-3:hover {
+  border: 2px solid lime;
+}
+
+.game-sub2-1 {
+  height: 14vh;
+  background-image: url(./Assets/card4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 44px;
+  margin-left: 105px;
+  width: 13vw;
+  background-position: center;
+  border: 2px solid white;
+}
+
+.game-sub2-1-media {
+  height: 14vh;
+  background-image: url(./Assets/card4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 44px;
+  margin-left: 105px;
+  width: 18vw;
+  background-position: center;
+  border: 2px solid white;
+}
+
+.game-sub2-1-media2 {
+  height: 14vh;
+  background-image: url(./Assets/card4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 44px;
+  margin-left: 23px;
+  width: 21vw;
+  background-position: center;
+  border: 2px solid white;
+}
+
+.game-sub2-1:hover {
+  border: 2px solid lime;
+}
+
+.game-sub2-2 {
+  height: 14vh;
+  border-radius: 44px;
+  width: 13vw;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTzDe6GmUu0UBAph-DREU90-utqvCV2ZDlQ&usqp=CAU);
+  background-position: center;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.game-sub2-2-media {
+  height: 14vh;
+  border-radius: 44px;
+  width: 18vw;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTzDe6GmUu0UBAph-DREU90-utqvCV2ZDlQ&usqp=CAU);
+  background-position: center;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.game-sub2-2-media2 {
+  height: 14vh;
+  border-radius: 44px;
+  width: 21vw;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTzDe6GmUu0UBAph-DREU90-utqvCV2ZDlQ&usqp=CAU);
+  background-position: center;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.game-sub2-2:hover {
+  border: 2px solid lime;
+}
+
+.game-sub2-3 {
+  height: 14vh;
+  background-image: url(./Assets/card-2-img-4.jpg);
+  background-position: center;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  border-radius: 44px;
+  width: 13vw;
+  margin-right: 105px;
+  border: 2px solid white;
+}
+
+.game-sub2-3-media {
+  height: 14vh;
+  background-image: url(./Assets/card-2-img-4.jpg);
+  background-position: center;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  border-radius: 44px;
+  width: 18vw;
+  margin-right: 105px;
+  border: 2px solid white;
+}
+
+.game-sub2-3-media2 {
+  height: 14vh;
+  background-image: url(./Assets/card-2-img-4.jpg);
+  background-position: center;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  border-radius: 44px;
+  width: 21vw;
+  margin-right: 23px;
+  border: 2px solid white;
+}
+
+.game-sub2-3:hover {
+  border: 2px solid lime;
+}
+/*# sourceMappingURL=Ourgames.css.map */

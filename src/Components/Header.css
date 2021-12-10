@@ -1,0 +1,41 @@
+.carousel-header {
+  height: 99vh;
+  background-color: black;
+  position: relative;
+  background-image: url(./Assets/Aboutimg1.jpg);
+  background-size: cover;
+}
+
+/* header{
+  display: flex;
+  flex-direction: column;
+} */
+.carousel-item {
+  background-size: cover;
+}
+/* .sliderImg{
+  height: 99vh !important;
+} */
+.sliderImg2 {
+  height: 99vh !important;
+}
+#grad {
+  height: 90.4vh;
+  position: relative;
+  top: -90.4vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(72, 87, 142, 0),
+    rgb(900, 87, 142, 1)
+  );
+}
+/* .radios{
+  display: flex;
+  position: absolute;
+  top: 84%;
+  left: 45%;
+  justify-content: center;
+}
+.radios>input{
+  margin: 0 8px;
+} */

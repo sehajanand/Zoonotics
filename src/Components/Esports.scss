@@ -1,0 +1,280 @@
+.esports {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Assets/esports_cleanup.jpg);
+  z-index: 99;
+  background-size: cover;
+  // -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 31%, 52% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 31%, 52% 100%, 0% 100%);
+}
+.box1-esports {
+  display: inline-block;
+  width: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 166px;
+  position: relative;
+  left: 67vw;
+  top: 8vw;
+  background: rgb(0, 195, 255);
+  border-radius: 127px;
+  // animation: box1animation 1s ease-in infinite;
+}
+#esports-page-btn {
+  // position: relative;
+  // bottom: 14vw;
+  // left: 7vw;
+  width: 141px;
+  border-radius: 44px;
+}
+.box2-esports {
+  height: 166px;
+  border-radius: 127px;
+  width: 266px;
+  position: relative;
+  flex-direction: column-reverse;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  top: 11vw;
+  left: 3vw;
+  background-color: rgb(0, 195, 255);
+  align-items: center;
+}
+.box1-esports > p {
+  color: white;
+  font-family: "mollenregular";
+  font-weight: bolder;
+  margin-left: 33px;
+  font-size: 24px;
+  margin-bottom: 0rem;
+}
+.box2-esports > p {
+  color: white;
+  margin-left: 33px;
+  font-family: "mollenregular";
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+@keyframes box1animation {
+  5% {
+    background: linear-gradient(
+      18deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 221) 100%
+    );
+  }
+  10% {
+    background: linear-gradient(
+      36deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  15% {
+    background: linear-gradient(
+      54deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  20% {
+    background: linear-gradient(
+      72deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  25% {
+    background: linear-gradient(
+      90deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  30% {
+    background: linear-gradient(
+      108deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  35% {
+    background: linear-gradient(
+      126deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  40% {
+    background: linear-gradient(
+      144deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  45% {
+    background: linear-gradient(
+      162deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      180deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  55% {
+    background: linear-gradient(
+      198deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  60% {
+    background: linear-gradient(
+      216deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  65% {
+    background: linear-gradient(
+      234deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  70% {
+    background: linear-gradient(
+      252deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  75% {
+    background: linear-gradient(
+      270deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  80% {
+    background: linear-gradient(
+      288deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  85% {
+    background: linear-gradient(
+      306deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  90% {
+    background: linear-gradient(
+      324deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  95% {
+    background: linear-gradient(
+      342deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      360deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+  0% {
+    background: linear-gradient(
+      180deg,
+      rgba(34, 195, 98, 0) 0%,
+      rgba(112, 190, 182, 0) 56%,
+      rgb(0, 255, 211) 100%
+    );
+  }
+}
+// 221-302
+@media screen and (max-width: 990px) {
+  .esports {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assets/esports_cleanup.jpg);
+    z-index: 99;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0, 100% 31%, 52% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box1-esports {
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 166px;
+    position: relative;
+    background: #00c3ff;
+    border-radius: 127px;
+    margin: 201px 0;
+  }
+  .box1-esports > p {
+    color: white;
+    font-family: "mollenregular";
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 0rem;
+    margin-left: 22px;
+  }
+  .box2-esports {
+    height: 166px;
+    border-radius: 127px;
+    width: 266px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    background-color: #00c3ff;
+    align-items: center;
+    z-index: 99;
+  }
+}

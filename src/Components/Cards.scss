@@ -1,0 +1,34 @@
+.cardsBox {
+  display: flex;
+  margin: 50px 0;
+  height: 65vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(72, 87, 142, 1),
+    rgba(900, 87, 142, 0)
+  );
+}
+.card {
+  margin: 20px 52px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(72, 87, 142, 0),
+    rgba(900, 87, 142, 1)
+  );
+  border-radius: 34px;
+  border: 2px #48578e;
+}
+.card-img-top {
+  background-color: black;
+  margin: 4px 0;
+  border-radius: 34px;
+}
+.card-body > h5 {
+  color: white;
+  font-weight: bolder;
+}
+.card-body > p {
+  font-weight: bolder;
+  color: black;
+}
+

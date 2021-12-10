@@ -1,0 +1,218 @@
+$font: "mollenregular";
+.mid-card {
+  border: 2px solid black;
+  height: 72vh;
+  background-image: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FtaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mid-card > h1 {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 32px;
+  text-align: center;
+  color: white;
+}
+
+.mid-card > h2 {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 32px;
+  text-align: center;
+  color: white;
+}
+@mixin achievementCard {
+  margin: 3px 10px;
+  width: 14vw;
+  height: 14vh;
+}
+@mixin achievementheading {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 36px;
+  color: #b2f617;
+}
+@mixin achievementpara {
+  font-family: $font;
+  font-weight: 400;
+  color: white;
+  font-size: 21px;
+}
+.mid-card-achievement {
+  height: 17vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.achievement1 {
+  @include achievementCard;
+}
+.achievement2 {
+  @include achievementCard;
+}
+.achievement3 {
+  @include achievementCard;
+}
+.achievement4 {
+  @include achievementCard;
+}
+.achievement-heading {
+  @include achievementheading;
+}
+.achievement-para {
+  @include achievementpara;
+}
+.community-links {
+  height: 20vh;
+  margin-top: 27px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.facebook-link {
+  background-image: url(./Assets/Facebook.jpg);
+  margin: 3px 10px;
+  height: 14vh;
+  background-size: contain;
+  width: 11rem;
+  background-repeat: no-repeat;
+}
+.insta-link {
+  background-image: url(./Assets/insta.jpg);
+  width: 6rem;
+  height: 13vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.discord-link {
+  background-image: url(./Assets/discord-2.jpg);
+  width: 9rem;
+  height: 14vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.linkden-link {
+  margin: 3px 10px;
+  background-image: url(./Assets/linkden2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9rem;
+  height: 13vh;
+}
+@media screen and (min-width: 1314px) and (max-width: 1408px) {
+  .achievement2 {
+    width: 15vw;
+  }
+}
+@media screen and (min-width: 1286px) and (max-width: 1378px) {
+  .achievement4 {
+    width: 15vw;
+  }
+}
+@media screen and (min-width: 1229px) and (max-width: 1313px) {
+  .achievement2 {
+    width: 16vw;
+  }
+}
+@media screen and (min-width: 1204px) and (max-width: 1285px) {
+  .achievement4 {
+    width: 16vw;
+  }
+}
+@media screen and (max-width: 1228px) {
+  .achievement2 {
+    width: 17vw;
+  }
+}
+@media screen and (min-width: 905px) and (max-width: 1204px) {
+  // .achievement3{
+  //     width: 15vw;
+  // }
+  .achievement4 {
+    width: 17vw;
+  }
+}
+@media screen and(min-width:681px) and (max-width: 904px) {
+  .achievement3 {
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 904px) {
+  .achievement4 {
+    width: 18vw;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .achievement3 {
+    width: 28vw;
+  }
+}
+//low width
+.mid-card-low-width {
+  border: 2px solid black;
+  height: 153vh;
+  background-image: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FtaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// @mixin achievementCard {
+//     margin: 3px 10px;
+//     width: 14vw;
+//     height: 14vh;
+// }
+.achievement-heading-low-width {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 36px;
+  color: #b2f617;
+}
+.achievement-para-low-width {
+  font-family: $font;
+  font-weight: 400;
+  color: white;
+  font-size: 21px;
+}
+.achievement1-low-width {
+  margin: 3px 10px;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.achievement2-low-width {
+  margin: 3px 10px;
+  flex-direction: column;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achievement3-low-width {
+  margin: 3px 10px;
+  flex-direction: column;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achievement4-low-width {
+  margin: 3px 10px;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mid-card-low-width > h1 {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 32px;
+  text-align: center;
+  color: white;
+}

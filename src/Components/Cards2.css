@@ -1,0 +1,99 @@
+.cardsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "mollenregular";
+  min-height: 49vh;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 32.3%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(72, 87, 142, 0)),
+    to(#ff578e)
+  );
+  background-image: linear-gradient(to bottom, rgba(72, 87, 142, 0), #ff578e);
+}
+
+.card {
+  font-family: "mollenregular";
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 87, 142, 0)),
+    to(#ff578e)
+  );
+  background-image: linear-gradient(rgba(255, 87, 142, 0), #ff578e);
+  border-radius: 34px;
+  border: 2px #48578e;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
+  transition: -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
+  transition: transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
+  transition: transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48),
+    -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
+}
+
+.box1 {
+  margin-bottom: 30px;
+  font-family: "mollenregular";
+  margin-left: 37px;
+  margin-right: 50px;
+  border-radius: 34px;
+  height: 62vh;
+}
+
+.card-body > h5 {
+  font-family: "mollenregular";
+  color: black;
+  font-weight: 500;
+}
+
+.card-body > p {
+  font-family: "mollenregular";
+  color: black;
+  font-weight: 500;
+}
+
+#card1img {
+  background-image: url(./Assets/card-2-img-1.jpg);
+  background-repeat: no-repeat;
+  font-family: "mollenregular";
+  height: 37vh;
+  background-size: 14rem;
+  background-position: center;
+}
+
+#card1img2 {
+  font-family: "mollenregular";
+  background-image: url(./Assets/card-2-img-2.png);
+  background-repeat: no-repeat;
+  height: 37vh;
+  background-size: 14rem;
+  background-position: center;
+}
+
+#card1img3 {
+  background-image: url(./Assets/card-2-img-3alternate.jpg);
+  font-family: "mollenregular";
+  background-repeat: no-repeat;
+  height: 37vh;
+  background-size: 17.1rem;
+  background-position: center;
+}
+
+#card1img4 {
+  background-image: url(./Assets/card-2-img-4.jpg);
+  font-family: "mollenregular";
+  background-repeat: no-repeat;
+  height: 37vh;
+  background-size: 17.1rem;
+  background-position: center;
+}
+/*# sourceMappingURL=Cards2.css.map */

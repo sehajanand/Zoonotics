@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+.card-sub-heading {
+  font-family: "mollenregular";
+  text-align: center;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.sub-heading-before-card {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff538e),
+    to(rgba(255, 87, 142, 0))
+  );
+  background-image: linear-gradient(#ff538e, rgba(255, 87, 142, 0));
+}
+
+.card-sub-heading + h1 {
+  font-size: 60px;
+  word-spacing: 11px;
+  font-weight: 500;
+  font-family: "mollenregular";
+  text-align: center;
+}
+/*# sourceMappingURL=Main.css.map */
