@@ -1,11 +1,5 @@
 nav {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#373b5b),
-    to(rgba(71, 76, 122, 0))
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#373b5b), to(rgba(71, 76, 122, 0)));
   background: linear-gradient(180deg, #373b5b, rgba(71, 76, 122, 0));
 }
 
@@ -27,7 +21,7 @@ nav.active {
 .navbar-toggler-icon:focus {
   outline: none !important;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+          box-shadow: none !important;
   border: 0 !important;
 }
 
@@ -49,9 +43,9 @@ nav.active {
 /* State when navbar is opened (START) */
 .navbar-toggler .top-bar {
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+          transform: rotate(45deg);
   -webkit-transform-origin: 10% 10%;
-  transform-origin: 10% 10%;
+          transform-origin: 10% 10%;
 }
 
 .navbar-toggler .middle-bar {
@@ -61,16 +55,16 @@ nav.active {
 
 .navbar-toggler .bottom-bar {
   -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+          transform: rotate(-45deg);
   -webkit-transform-origin: 10% 90%;
-  transform-origin: 10% 90%;
+          transform-origin: 10% 90%;
 }
 
 /* State when navbar is opened (END) */
 /* State when navbar is collapsed (START) */
 .navbar-toggler.collapsed .top-bar {
   -webkit-transform: rotate(0);
-  transform: rotate(0);
+          transform: rotate(0);
 }
 
 .navbar-toggler.collapsed .middle-bar {
@@ -80,7 +74,7 @@ nav.active {
 
 .navbar-toggler.collapsed .bottom-bar {
   -webkit-transform: rotate(0);
-  transform: rotate(0);
+          transform: rotate(0);
 }
 
 /* State when navbar is collapsed (END) */

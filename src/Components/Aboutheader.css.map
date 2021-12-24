@@ -1,9 +1,9 @@
 {
-  "version": 3,
-  "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,MAAM,EAAE,IAAI;EACf,gBAAgB,EAAE,KAAK;EACvB,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,2BAA2B;EAC7C,eAAe,EAAE,KAAK;CACtB",
-  "sources": [
-    "Aboutheader.scss"
-  ],
-  "names": [],
-  "file": "Aboutheader.css"
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,KAAK;EACvB,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,2BAA2B;EAC7C,eAAe,EAAE,KAAK;CACvB",
+    "sources": [
+        "Aboutheader.scss"
+    ],
+    "names": [],
+    "file": "Aboutheader.css"
 }

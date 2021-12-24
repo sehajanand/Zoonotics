@@ -42,14 +42,14 @@ export default function Header() {
           <div className="carousel-inner">
             <div className="carousel-item active" style={{ height: `99vh` }}>
               <img
-                src={require("./Assets/sliderimg1.jpg").default}
+                src={require("./Assets/sliderimg2.jpg").default}
                 className="d-block sliderImg2 w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item" style={{ height: `99vh` }}>
               <img
-                src={require("./Assets/sliderimg2.jpg").default}
+                src={require("./Assets/istockphoto-1320158002-170667a.jpg").default}
                 className="d-block sliderImg2 w-100"
                 alt="..."
               />
@@ -64,7 +64,7 @@ export default function Header() {
             <div className="carousel-item" style={{ height: `99vh` }}>
               <img
                 src={
-                  require("./Assets/istockphoto-1320158002-170667a.jpg").default
+                  require("./Assets/sliderimg1.jpg").default
                 }
                 className="d-block sliderImg2 w-100"
                 alt="..."

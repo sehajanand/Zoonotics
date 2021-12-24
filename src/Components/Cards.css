@@ -4,25 +4,13 @@
   display: flex;
   margin: 50px 0;
   height: 65vh;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#48578e),
-    to(rgba(255, 87, 142, 0))
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#48578e), to(rgba(255, 87, 142, 0)));
   background-image: linear-gradient(to bottom, #48578e, rgba(255, 87, 142, 0));
 }
 
 .card {
   margin: 20px 52px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(72, 87, 142, 0)),
-    to(#ff578e)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(72, 87, 142, 0)), to(#ff578e));
   background-image: linear-gradient(to bottom, rgba(72, 87, 142, 0), #ff578e);
   border-radius: 34px;
   border: 2px #48578e;

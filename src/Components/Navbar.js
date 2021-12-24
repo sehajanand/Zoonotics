@@ -151,11 +151,11 @@ export default function Navbar(p) {
       }
     >
       <div className="container-fluid">
-        <img
-          src={require("./Assets/logo3.png").default}
-          alt="img"
+        <Link
+     
           id="mainlogo"
-        />
+          to="/"
+        ><img src={require("./Assets/logo3.png").default} alt="img" id="mainlogo" /></Link>
         <Link className="navbar-brand" style={{ color: `white` }} to="/">
           ZOONOTICS
         </Link>

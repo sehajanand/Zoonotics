@@ -5,39 +5,26 @@
   font-family: "mollenregular";
   min-height: 49vh;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 24px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 32.3%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(72, 87, 142, 0)),
-    to(#ff578e)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(72, 87, 142, 0)), to(#ff578e));
   background-image: linear-gradient(to bottom, rgba(72, 87, 142, 0), #ff578e);
 }
 
 .card {
   font-family: "mollenregular";
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(255, 87, 142, 0)),
-    to(#ff578e)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 87, 142, 0)), to(#ff578e));
   background-image: linear-gradient(rgba(255, 87, 142, 0), #ff578e);
   border-radius: 34px;
   border: 2px #48578e;
   -webkit-transition: -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
   transition: -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
   transition: transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
-  transition: transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48),
-    -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
+  transition: transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48), -webkit-transform 0.2s cubic-bezier(1, 1.37, 0.35, 1.48);
 }
 
 .box1 {

@@ -1,9 +1,9 @@
 {
-  "version": 3,
-  "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAkB;CACvC",
-  "sources": [
-    "Esportsheader.scss"
-  ],
-  "names": [],
-  "file": "Esportsheader.css"
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAmB;CACtC",
+    "sources": [
+        "Esportsheader.scss"
+    ],
+    "names": [],
+    "file": "Esportsheader.css"
 }
