@@ -3,9 +3,9 @@ import "./Loadingspinner.css";
 
 export default function Loadingspinner() {
     return (
-        <div class="image">
+        <div className="image">
         <img src="./Assets/logo3.png" alt="logo_not_loaded"/>
-        <div class="spin spinner"></div>
+        <div className="spin spinner"></div>
       </div>
     )
 }

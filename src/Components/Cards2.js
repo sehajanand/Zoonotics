@@ -144,7 +144,7 @@ export default function Cards2() {
           <div className="card-body">
             <h5 className="card-title">Rocket League</h5>
             <p className="card-text">
-              <i class="bi bi-award"></i>
+              <i className="bi bi-award"></i>
               &#x20B9;2000.
             </p>
             <a
@@ -152,7 +152,7 @@ export default function Cards2() {
               onClick={rlClick}
               className="btn btn-primary"
             >
-              <i class="bi bi-calendar"></i>29/12/21
+              <i className="bi bi-calendar"></i>29/12/21
             </a>
           </div>
         </div>
@@ -169,14 +169,14 @@ export default function Cards2() {
           <div className="card-body">
             <h5 className="card-title">BGMI</h5>
             <p className="card-text">
-              <i class="bi bi-award"></i>&#x20B9;3000
+              <i className="bi bi-award"></i>&#x20B9;3000
             </p>
             <a
               href="https://zoonotics.iscrim.com/"
               onClick={bgmiClick}
               className="btn btn-primary"
             >
-              <i class="bi bi-calendar"></i>30/11/21
+              <i className="bi bi-calendar"></i>30/11/21
             </a>
           </div>
         </div>
@@ -193,14 +193,14 @@ export default function Cards2() {
           <div className="card-body">
             <h5 className="card-title">Call Of Duty Mobile</h5>
             <p className="card-text">
-              <i class="bi bi-award"></i>&#x20B9;5000
+              <i className="bi bi-award"></i>&#x20B9;5000
             </p>
             <a
               href="https://zoonotics.iscrim.com/"
               onClick={codClick}
               className="btn btn-primary"
             >
-              <i class="bi bi-calendar"></i>33/11/21
+              <i className="bi bi-calendar"></i>33/11/21
             </a>
           </div>
         </div>
@@ -217,14 +217,14 @@ export default function Cards2() {
           <div className="card-body">
             <h5 className="card-title">Free Fireeeeeeee</h5>
             <p className="card-text">
-              <i class="bi bi-award"></i>&#x20B9;0.1111
+              <i className="bi bi-award"></i>&#x20B9;0.1111
             </p>
             <a
               href="https://zoonotics.iscrim.com/"
               onClick={ffClick}
               className="btn btn-primary"
             >
-              <i class="bi bi-calendar"></i>11/11/11
+              <i className="bi bi-calendar"></i>11/11/11
             </a>
           </div>
         </div>
