@@ -6,12 +6,12 @@ export default function About() {
     <section id="aboutMain">
       <h1>About Zoonotics</h1>
       <p>
-        Zoonotics Is A Professional And Dedicated Esports Organization Formed In
+      Zoonotics Is A Professional And Dedicated Esports Organization Formed In
         February 2020 that owns teams across the globe in various titles such as
-        FREE FIRE , BGMI , CODM, VALORANT , CS:GO, DOTA 2, Fortnite, Overwatch,
-        , Rainbow Six Siege, Apex Legends etc. We Were Formed With The Motive
+        FREE FIRE, BGMI, CODM, VALORANT, CS: GO, DOTA 2, Fortnite, Overwatch,
+        , Rainbow Six Siege, Apex Legends, etc. We Were Formed With The Motive
         And Goal To Be Established In The eSports Field, By Managing And Holding
-        eSports Event, Whereas At The Same Time Establishing Our Own Lineups In
+        eSports Event, Whereas At The Same Time Establishing Our Lineups In
         The eSports Arena. Our Goal Is To To Stick To Establish Ourselves In One
         eSports Game, But To Expand And Conquer All Arenas. From Consoles To PCs
         To Handheld Mobiles, We Plan To Establish Ourselves In Each Community.
@@ -67,8 +67,8 @@ export default function About() {
         {" "}
         WE CONDUCT MORE THEN 85+ SCRIMS T1 ,T2 , T3 & INVITED SCRIMS THROUGH OUR{" "}
         <a href="https://discord.gg/wbuHk8fqZT">DISCORD SERVER</a>
-        WE CONDUCT MORE THEN 40+ TOURNAMENT ( ON YOUTUBE , GAMESEE , BOOYAH LIVE
-        ) AND SOME THEM THORUGH MEDIA PARTNER
+        WE CONDUCT MORE THAN 40+ TOURNAMENT ( ON YOUTUBE , GAMESEE , BOOYAH LIVE
+        ) AND SOME OF THEM THORUGH OUR MEDIA PARTNERS.
       </p>
       <hr />
       <p id="contact">
