@@ -1,10 +1,55 @@
 footer {
-  background-color: green;
-  height: 7vh;
+  height: 18vh;
+  background-color: #f2f0e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "mollenregular";
-  font-weight: 600;
-  font-size: large;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #975e5e;
 }
+
+.footer-social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-social-links > a img {
+  width: 30px;
+  margin: 0 16px;
+  border-radius: 23px;
+}
+
+.back-to-top {
+  position: absolute;
+  left: 72px;
+  cursor: pointer;
+}
+
+.back-to-top > img {
+  width: 30px;
+  margin: 0 16px;
+  border-radius: 23px;
+}
+
+.other-contact-details a {
+  text-decoration: none;
+  color: #975e5e;
+}
+
+.other-contact-details a:hover {
+  color: blue;
+}
+/*# sourceMappingURL=Footer.css.map */
