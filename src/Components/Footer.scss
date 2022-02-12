@@ -39,3 +39,15 @@ footer {
       color: blue;
   }
 }
+@media screen and (max-width:906px) {
+  footer{
+    height: 18vh;
+    background-color: #f2f0e4;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    color: $primaryFooterColor;
+  }
+}
