@@ -215,9 +215,9 @@ export default function Cards2() {
         >
           <div id="card1img4"></div>
           <div className="card-body">
-            <h5 className="card-title">Free Fireeeeeeee</h5>
+            <h5 className="card-title">Free Fire</h5>
             <p className="card-text">
-              <i className="bi bi-award"></i>&#x20B9;0.1111
+              <i className="bi bi-award"></i>&#x20B9;3000
             </p>
             <a
               href="https://zoonotics.iscrim.com/"
